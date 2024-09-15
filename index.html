@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assests/nc-removebg-preview.png" type="image/icon type">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Nusrath-Cassim</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="Logo"> Nusrath</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="Logo"> Nusrath</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+
+    </nav>
+
+<section id="profile">
+    <div class="main">
+        <div id="Social-container">
+            <img src="/assests/linkedin.png" alt="Linkedin-account" class="icon" onclick="location.href = ' https://linkedin.com/in/nusrath-cassim'">
+            <img src="/assests/github.png" alt="Linkedin-account" class="icon" onclick="location.href = ' https://github.com/NusrathCassim'">
+        </div>
+        <div class="section-text">
+            <div class="main-text">
+                <h1>Hey, I'm<br>
+                Nusrath</h1>
+            </div>
+            <div class="sub-text">
+                <p>Software Engineering Student</p>
+            </div>
+            <div class="btn-container">
+                <a onclick="window.open('/assests/Nusrath Cassim.pdf')" >Download CV >></a>
+            </div>
+        </div>
+        
+        <div class="section-pic">
+            <img src="/assests/profilenus.png" alt="nusrat">
+        </div>
+
+    </div>  
+</section>
+<section id="about">
+    <div class="main-a">
+        <div class="about_container">
+            <div class="about-text">
+                <p>
+                    As a software engineering student, I'm <span style="color: #3c7f72;">passionate</span> about learning and 
+                    <span style="color: #3c7f72;">mastering</span> programming languages and excited to contribute my skills and creativity 
+                    to the tech world.
+                </p>
+            </div>
+            <div class="link-container">
+                <a href="#" id="openEducation">Education>></a>
+                <a href="#" id="openLanguages">Languages>></a>
+            </div>
+    
+            <!-- Popup 1: Education -->
+            <div id="popupEducation" class="popup">
+                <div class="popup-content">
+                    <span class="close-popup">&times;</span>
+                    <h2>Education</h2>
+                    <p>
+                        <strong>Ordinary Level</strong> <span class="year">------ 2019</span><br>
+                        <strong>Advanced Level</strong> <span class="year">------ 2020 - 2022</span><br>
+                        <strong>HD in Software Engineering</strong> <span class="year">------ 2023 - present</span>
+                    </p>
+                </div>
+            </div>
+            
+    
+            <!-- Popup 2: Languages -->
+            <div id="popupLanguages" class="popup">
+                <div class="popup-content">
+                    <span class="close-popup">&times;</span>
+                    <h2>Languages</h2>
+                    <p>English <br> | <br> Sinhala</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<section id="skills">
+    <div class="skill-container">
+        <div class="skill">
+            <h2 class="skill_h">Skill Set</h2>
+            <div class="article_c">
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>C++</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>JAVA</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>HTML</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>CSS</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>PYTHON</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+            </div>
+           
+
+        </div>
+        <div class="skill">
+            <h2 class="skill_h">Soft Skill Set</h2>
+            <div class="article_c">
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>Communication</h3>
+                       
+                    </div>
+                </article>
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>Teamwork</h3>
+                        
+                    </div>
+                </article>
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>Leadership</h3>
+                       
+                    </div>
+                </article>
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>Open Mindedness</h3>
+                        
+                    </div>
+                </article>
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>Problem Solving</h3>
+                       
+                    </div>
+                </article>
+                <article>
+                    <img src="/assests/skill.png" alt="skill icon" class="icon">
+                    <div>
+                        <h3>Public Speaking</h3>
+                       
+                    </div>
+                </article>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="project-container">
+        <h2 class="title">WORK</h2>
+        <div class="project-gallery">
+            <div class="column">
+                <div class="project-box">
+                    <img src="/assests/cafe.png" alt="">
+                    <div class="details">
+                        <h3>Gallery Cafe</h3>
+                        <a href="https://github.com/NusrathCassim/Gallery-Caf--project" class="btn">Github</a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="/assests/project1.png" alt="">
+                    <div class="details">
+                        <h3>Student management system</h3>
+                        <a href='https://github.com/NusrathCassim/Object-Oriented-based-applications' class="btn">Github</a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="/assests/project2.png" alt="">
+                    <div class="details">
+                        <h3>2D Game </h3>
+                        <a href="https://gitfront.io/r/nusrath/SzrDHj9txYdc/2D-Game/" class="btn">Github</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="project-box">
+                    <img src="/assests/download.gif" alt="">
+                    <div class="details">
+                        <h3>Doggo App</h3>
+                        <a href="https://github.com/NusrathCassim/Doggo" class="btn">Github</a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="/assests/profile.png" alt="">
+                    <div class="details">
+                        <h3>More Projects</h3>
+                        <a href="https://github.com/NusrathCassim" class="btn">more>></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+       
+    </div>
+</section>
+
+<section id="contact">
+    
+    <div class="contact-container">
+        <h2 class="title">Contact Me</h2>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="/assests/email.png" alt="email icon" class="icon contact-icon">
+                <p><a href="mailto:nusrathcassim1@gmail.com">nusrathcassim1@gmail.com</a></p>
+            </div>
+        
+        
+            <div class="contact-info-container">
+                <img src="/assests/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://linkedin.com/in/nusrath-cassim">linkedin</a></p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Nusrath. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

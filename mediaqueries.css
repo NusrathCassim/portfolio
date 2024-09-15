@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 1400px) {
+    #profile{
+       
+       margin-bottom: 6rem;
+
+    }
+    
+    #contact,
+    #projects{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #dekstop-nav{
+        display: none;
+
+    }
+    #profile, .main{
+        display: block;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    section, .main{
+        height: fit-content;
+    }
+    .main{
+        background-image: none;
+    }
+    section{
+        margin: 0 5%;
+      
+    }
+    #Social-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .section-text{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .main-text {
+        font-size: 3rem;
+    }
+    .section-pic{
+        padding-left: 0;
+        align-items: center;
+       justify-content: center;
+    }
+    .about_container{
+        flex-direction: column;
+    }
+    .about-text{
+        width: fit-content;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .skill-container{
+        flex-direction: column;
+    }
+}
