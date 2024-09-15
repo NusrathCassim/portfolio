@@ -148,7 +148,7 @@ section{
 }
 
 .main{
-    background-image: url('/assests/b.png'); 
+    background-image: url('assests/b.png'); 
     background-position: right; 
     background-size: contain; 
     background-size: 30rem;
@@ -205,7 +205,7 @@ section{
 /* About section */
 
 .about_container {
-    background-image: url(../assests/circle.png);
+    background-image: url(assests/circle.png);
     background-position-x: 48rem;
     background-position-y: 20px;
     background-repeat: no-repeat;
@@ -249,7 +249,7 @@ section{
 
 /* Popup content box */
 .popup-content {
-    background-image: url(/assests/flower.png);
+    background-image: url(assests/flower.png);
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position-x: right;
@@ -306,7 +306,7 @@ section{
 
 /* skill section */
 .skill-container {
-    background-image: url(../assests/b.png);
+    background-image: url(assests/b.png);
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: center;
