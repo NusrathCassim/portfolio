@@ -148,7 +148,7 @@ section{
 }
 
 .main{
-    background-image: url('assests/b.png'); 
+    background-image: url('/assests/b.png'); 
     background-position: right; 
     background-size: contain; 
     background-size: 30rem;
